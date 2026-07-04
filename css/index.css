@@ -31,7 +31,7 @@ header {
     margin-bottom: 50px;
 }
 
-header h1 {
+header h1 p {
     color: var(--text-accent);
     font-size: 2.5rem;
     letter-spacing: 1px;
@@ -119,4 +119,11 @@ header .subtitulo {
 .card-btn:hover {
     background-color: var(--text-accent);
     color: var(--bg-main);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
 }

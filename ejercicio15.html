@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+    <link rel="stylesheet" href="css/ejercicio15.css">
+    <script src="js/ejercicio15.js" defer></script>
+</head>
+<body>
+    <div id="contenedor-calculadora">
+        <h1>Ejercicio 15</h1>
+        <p>Objetos en JavaScript</p>
+
+        <form id="calculadora">
+            <label for="nombre">Nombre del alumno:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+
+            <label for="calificacion">Calificación:</label>
+            <input type="number" id="calificacion" name="calificacion" required placeholder="Ej. 70" min="0" max="100">
+
+            <button type="submit" id="agregar" value="agregar">Agregar Estudiante</button>
+            <button type="submit" id="calcular" value="calcular" formnovalidate>Calcular</button>
+
+            <div class="tabla-contenedor">
+                <table id="tabla-estudiantes">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Calificación</th>
+                        </tr>
+
+                    </thead>
+                    
+                    <tbody id="cuerpo-tabla">
+                    </tbody>
+                </table>
+            </div>    
+        
+            <label for="promedio">Promedio:</label>
+            <input type="text" id="promedio" name="promedio" readonly placeholder="Promedio">
+
+            <label for="calAlta">Estudiante con la calificación más alta:</label>
+            <input type="text" id="calAlta" name="calAlta" readonly placeholder="Calificación más alta">
+            
+            <label for="calBaja">Estudiante con la calificación más baja:</label>
+            <input type="text" id="calBaja" name="calBaja" readonly placeholder="Calificación más baja">
+        </form>
+    </div>
+</body>
+</html>

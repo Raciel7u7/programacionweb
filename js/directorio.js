@@ -58,7 +58,38 @@ const ejercicios = [
         titulo: "Ejercicio 10",
         descripcion: "Calculadora de Grados Celsius a Fahrenheit",
         enlace: "ejercicio10.html"
+    },
+    {
+        id: "11",
+        titulo: "Ejercicio 11",
+        descripcion: "Calculadora: Kilometros a Millas",
+        enlace: "ejercicio11.html"
+    },
+    {
+        id: "12",
+        titulo: "Ejercicio 12",
+        descripcion: "Calculadora: Pesos Mexicanos (MXN) a Dólares (USD)",
+        enlace: "ejercicio12.html"
+    },
+    {
+        id: "13",
+        titulo: "Ejercicio 13",
+        descripcion: "Verificación de edad para votar",
+        enlace: "ejercicio13.html"
+    },
+    {
+        id: "14",
+        titulo: "Ejercicio 14",
+        descripcion: "Operaciones sobre números",
+        enlace: "ejercicio14.html"
+    },
+    {
+        id: "15",
+        titulo: "Ejercicio 15",
+        descripcion: "Objetos en JavaScript",
+        enlace: "ejercicio15.html"
     }
+
 ];
 
 const contenedor = document.getElementById("contenedor-cards");
