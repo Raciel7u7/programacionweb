@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio16.js" defer></script>
+</head>
+<body>
+
+    <div id="contenedor-calculadora">
+        <h1>Ejercicio 16</h1>
+        <p>Funciones Flecha</p>
+
+        <form id="calculadora" onsubmit="event.preventDefault();">
+            <label for="numero1">Número 1:</label>
+            <input type="text" id="numero1" name="numero1" placeholder="Ej. 1">
+            
+            <label for="numero2">Número 2:</label>
+            <input type="text" id="numero2" name="numero2" placeholder="Ej. 5">
+
+            <label for="resultado">Resultado de la Operación:</label>
+            <input type="text" id="resultado" readonly>
+
+            <div id="botones-operacion">
+                <button type="button" onclick="calcularOperacion('suma')">Suma</button>
+                <button type="button" onclick="calcularOperacion('resta')">Resta</button>
+                <button type="button" onclick="calcularOperacion('multiplicacion')">Multiplicación</button>
+                <button type="button" onclick="calcularOperacion('division')">División</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
