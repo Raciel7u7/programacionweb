@@ -93,19 +93,19 @@ const ejercicios = [
         id: "16",
         titulo: "Ejercicio 16",
         descripcion: "Funciones flecha",
-        enlace: "ejercicio14.html"
+        enlace: "ejercicio16.html"
     },
     {
         id: "17",
         titulo: "Ejercicio 17",
         descripcion: "Gestion de tareas con JSON y LOCALSTORE",
-        enlace: "ejercicio14.html"
+        enlace: "ejercicio17.html"
     },
     {
         id: "18",
         titulo: "Ejercicio 18",
         descripcion: "Manipulacion del DOM",
-        enlace: "ejercicio14.html"
+        enlace: "ejercicio18.html"
     }
 ];
 
