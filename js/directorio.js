@@ -88,8 +88,25 @@ const ejercicios = [
         titulo: "Ejercicio 15",
         descripcion: "Objetos en JavaScript",
         enlace: "ejercicio15.html"
+    },
+    {
+        id: "16",
+        titulo: "Ejercicio 16",
+        descripcion: "Funciones flecha",
+        enlace: "ejercicio14.html"
+    },
+    {
+        id: "17",
+        titulo: "Ejercicio 17",
+        descripcion: "Gestion de tareas con JSON y LOCALSTORE",
+        enlace: "ejercicio14.html"
+    },
+    {
+        id: "18",
+        titulo: "Ejercicio 18",
+        descripcion: "Manipulacion del DOM",
+        enlace: "ejercicio14.html"
     }
-
 ];
 
 const contenedor = document.getElementById("contenedor-cards");
