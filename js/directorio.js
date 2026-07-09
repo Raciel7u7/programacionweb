@@ -110,8 +110,14 @@ const ejercicios = [
     {
         id: "19",
         titulo: "Ejercicio 19",
-        descripcion: "Manipulacion del DOM - copia",
+        descripcion: "Manipulacion del DOM - copiav1",
         enlace: "ejercicio19.html"
+    },
+    {
+        id: "20",
+        titulo: "Ejercicio 20",
+        descripcion: "Manipulacion del DOM - copiav2",
+        enlace: "ejercicio20.html"
     }
 ];
 
